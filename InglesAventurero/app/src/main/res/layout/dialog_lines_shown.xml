@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/dialog_ll">
+  <TextView
+    style="@style/dialog_title"
+    android:id="@+id/title"/>
+<ScrollView
+  style="@style/dialog_scroll_view">
+  <LinearLayout
+    style="@style/dialog_inner_ll"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      style="@style/dialog_tiny_text"
+      android:paddingBottom="5dp"
+      android:paddingTop="10dp"
+      android:textColor="@color/dark_text"
+      android:id="@+id/lines_shown_h_title"/>
+    <RadioGroup
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:buttonTint="@color/hint_text_eng"
+       android:id="@+id/radio_group_spn_shown_h">
+      <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/dialog_tiny_text"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/spn_shown_h_0"/>
+      <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/dialog_tiny_text"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/spn_shown_h_1"/>
+      <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/dialog_tiny_text"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/spn_shown_h_2"/>
+      <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/dialog_tiny_text"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/spn_shown_h_3"/>
+    </RadioGroup>
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      style="@style/dialog_tiny_text"
+      android:paddingBottom="5dp"
+      android:paddingTop="10dp"
+      android:textColor="@color/dark_text"
+      android:id="@+id/lines_shown_r_title"/>
+    <RadioGroup
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:buttonTint="@color/reply_text_eng"
+      android:id="@+id/radio_group_spn_shown_r">
+      <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/dialog_tiny_text"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/spn_shown_r_0"/>
+      <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/dialog_tiny_text"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/spn_shown_r_1"/>
+      <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/dialog_tiny_text"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/spn_shown_r_2"/>
+      <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/dialog_tiny_text"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/spn_shown_r_3"/>
+    </RadioGroup>
+  </LinearLayout>
+</ScrollView>
+  <include layout="@layout/dialog_two_buttons"/>
+
+</LinearLayout>
+		

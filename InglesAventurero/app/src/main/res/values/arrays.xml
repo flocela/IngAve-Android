@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+  <integer-array name="lines_shown_h">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+  </integer-array>
+  <string-array name="lines_shown_r">
+    <item>0</item>
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+  </string-array>
+  <!--
+    wait times in following arrays.
+    private int waitAfterMatch      = 1400;
+    private int waitEndIsMatchable  = 0;
+    private int waitEndIsLeader     = 2000;
+    private int waitAtTopOfPage     = 500;
+    private int waitBeforeFirstHint = 1000;
+    private int waitBeforeFlash     = 400;
+    private int waitScroll          = 300;
+    private int waitPlayer          = 300;-->
+  <integer-array name="testing_times">
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+    <item>0</item>
+  </integer-array>
+  <integer-array name="wait_times_0">
+    <item>4000</item>
+    <item>1000</item>
+    <item>5000</item>
+    <item>1500</item>
+    <item>2500</item>
+    <item>5000</item>
+    <item>500</item>
+    <item>600</item>
+  </integer-array>
+  <integer-array name="wait_times_1">
+    <item>1900</item>
+    <item>250</item>
+    <item>3500</item>
+    <item>1500</item>
+    <item>1250</item>
+    <item>2050</item>
+    <item>400</item>
+    <item>500</item>
+  </integer-array>
+  <integer-array name="wait_times_2">
+    <item>1400</item>
+    <item>0</item>
+    <item>2000</item>
+    <item>500</item>
+    <item>1000</item>
+    <item>400</item>
+    <item>300</item>
+    <item>400</item>
+  </integer-array>
+  <integer-array name="wait_times_3">
+    <item>950</item>
+    <item>0</item>
+    <item>1300</item>
+    <item>500</item>
+    <item>750</item>
+    <item>200</item>
+    <item>200</item>
+    <item>300</item>
+  </integer-array>
+  <integer-array name="wait_times_4">
+    <item>500</item>
+    <item>0</item>
+    <item>800</item>
+    <item>500</item>
+    <item>500</item>
+    <item>100</item>
+    <item>200</item>
+    <item>300</item>
+  </integer-array>
+  <integer-array name="wait_times_5">
+    <item>200</item>
+    <item>0</item>
+    <item>200</item>
+    <item>500</item>
+    <item>200</item>
+    <item>100</item>
+    <item>100</item>
+    <item>200</item>
+  </integer-array>
+</resources>

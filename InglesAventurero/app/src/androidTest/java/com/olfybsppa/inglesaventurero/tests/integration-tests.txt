@@ -1,0 +1,47 @@
+Some helpful information when running integration tests.
+
+1. Before running tests, turn OFF animations!! Also, in ReplyView.java and
+ReplySetView.java set the ImageViews submitCorrectResponses and wrongResponse to VISIBLE:
+  submitCorrResponses.setVisibility(VISIBLE);
+  wrongResponse.setVisibility(VISIBLE);
+
+2.  Comment out main intent-filter in the mainfest file.
+<!--<intent-filter>
+  <action android:name="android.intent.action.MAIN" />
+  <category android:name="android.intent.category.LAUNCHER" />
+</intent-filter> -->
+
+3. If STORY is StageActivity.TEST_STORY || .ESPRESSO_STORY || SILENT_STORY then
+AlphabeticalTracker from java/stageactivity/AlphabeticalTracker.java will be used, which
+is instantiated in TrackerMakerFragment. To see all the pages easily, there is a .odt
+file AlphabetTracker-java.odt.
+
+Look for STORY when launching the activity in startActivity().
+private StageActivity startActivity() {
+  Intent intent = new Intent();
+  intent.putExtra(StageActivity.STORY, StageActivity.SILENT_STORY);
+  return mActivityRule.launchActivity(intent);
+}
+4. How do I know when a hint or explanation or slow replay is played? I can't test if a
+sound was heard? ESPRESSO_STORY is used when I want to prove that a something would have
+been played. Instead of a hint being played by the Player class an EspressoPlayer plays
+the hint by showing a dialog. Then I can assert that a dialog with the correct times is
+showing. I'm using a dialog because it will stay up long enough to assert, the test
+clicks okay when it is done.
+
+5. SILENT_STORY is used when I don't care about hearing anything.
+                                                                                                                                                                                                                                                                                                                                                                 submitCorrResponses.setVisibility(VISIBLE);.
+
+                                                                                                                                                                                                                                                                                                                                                               2.  Comment out main intent-filter in the mainfest file.
+                                                                                                                                                                                                                                                                                                                                                               <!--<intent-filter>
+                                                                                                                                                                                                                                                                                                                                                                 <action android:name="android.intent.action.MAIN" />
+                                                                                                                                                                                                                                                                                                                                                                 <category android:name="android.intent.category.LAUNCHER" />
+                                                                                                                                                                                                                                                                                                                                                               </intent-filter>
+
+                                                                                                                                                                                                                                                                                                                                                               3. If STORY is StageActivity.TEST_STORY || .ESPRESSO_STORY || SILENT_STORY then AlphabeticalTracker from java/stageactivity/AlphabeticalTracker.java will be used. Look for this when launching the activity in startActivity().
+                                                                                                                                                                                                                                                                                                                                                               private StageActivity startActivity() {
+                                                                                                                                                                                                                                                                                                                                                                 Intent intent = new Intent();
+                                                                                                                                                                                                                                                                                                                                                                 intent.putExtra(StageActivity.STORY, StageActivity.SILENT_STORY);
+                                                                                                                                                                                                                                                                                                                                                                 return mActivityRule.launchActivity(intent);
+                                                                                                                                                                                                                                                                                                                                                               }
+                                                                                                                                                                                                                                                                                                                                                               4. ESPRESSO_STORY is used when I want to prove that a hint would be played. Instead of a hint being played by the Player class an EspressoPlayer plays the hint by showing a dialog. Then I can assert that a dialog with the correct times is showing. I'm using a dialog because it will stay up long enough to assert, the test clicks okay when it is done.

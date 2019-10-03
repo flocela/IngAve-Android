@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/page_fragment"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:background="@color/phone_background"
+  android:clickable="true"
+  android:focusable="true"
+  android:focusableInTouchMode="true"
+  android:paddingTop="4dp"
+  android:paddingLeft="4dp"
+  android:paddingRight="4dp"
+  android:paddingBottom="4dp">
+  <android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbarSize="10dp"
+    android:fadeScrollbars="true"
+    android:layout_weight="1"
+    android:id="@+id/colloquy_scroll_v">
+    <LinearLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:paddingBottom="50dp"
+      android:id="@+id/inside_ll">
+      <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        android:adjustViewBounds="true"
+        android:id="@+id/background">
+      </ImageView>
+    >
+    </LinearLayout>
+  </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

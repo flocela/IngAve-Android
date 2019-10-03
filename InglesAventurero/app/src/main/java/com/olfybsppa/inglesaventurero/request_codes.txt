@@ -1,0 +1,2 @@
+DeleteConfirmationDialog RequestCode = 99;
+NoConnectionDialog = 33;

@@ -1,0 +1,3 @@
+Gimp:
+explanation button is an e. it’s font is Times Bold Italic
+radius for ix_36dp_xxhdpi.xcf blue button background is 14

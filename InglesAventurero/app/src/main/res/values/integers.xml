@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <integer name="lines_shown_default_h">3</integer>
+  <integer name="lines_shown_default_r">3</integer>
+  <integer name="wait_times_default">2</integer>
+  <integer name="num_of_active_scenes_default">0</integer>
+</resources>

@@ -1,0 +1,43 @@
+      Adding a Page from an xml file. The page is named newPage with newAttributions, with
+       which I make newAttributionSet.
+      It also comes with a newBackgroundName and a newFileName.
+    From newPage's background_name get background _id and attr_set_id from background
+     table.
+    Case 1: Was Not able to find a current background _id.
+  Add newBackground and generate new background_id. Add background_id and page_id to
+  page_background_pivot_table.
+    Case 2: Was able to find a background _id, so background already exists. This scene
+     may have an
+  updated attribute set and/or attributes for this background. Check and update attributes
+   if necessary.
+  May also be updating file connected to background, so check on that also.
+  Create an attribute set from the newPage's attributes and create a newHashValue.
+  Using the attr_set_id  get the current set_hashvalue from the attr_set_table and compare
+   to newHashValue.
+  Case a: newHashValue is equal to current hashValue. Attributes do not need to be
+  updated. Done.
+  Case b: newHashValie is not equal to current hashValue.
+  Get attributes from set_to_attr_pivot_table and attribution_table.
+  For each of the new attributes see if there is a match current attribute that matches.
+   (Matching
+  means that the image_info_name is the same.) If none of the current attributes matches,
+   then add
+  the new attribute. If one of the current attributes matches, check to see if it is a
+   complete match.
+  If a complete match, do nothing, otherwise update it.
+  For each of the current attributes that were not matched. If they exist somewhere else
+   in the set_to_attr_pivot_table,
+  do nothing. If they don't exist again, then delete row in attribution_table.
+  Case c: Using the bg_file_id get the filename from the bg_file_table. If it is not the
+   same as the
+  newFilename, update the filename. Somehow the app must be notified so that the old file
+   can be deleted.
+
+
+      Adding a scene. If the scene already exists, the old scene is deleted completely
+       before the
+    new scene is added.
+
+
+
+

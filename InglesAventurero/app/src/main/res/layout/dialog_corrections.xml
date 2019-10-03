@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="0dp"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:paddingBottom="10dp"
+  android:minWidth="350dp"
+  android:minHeight="100dp"
+  android:background="@drawable/white"
+  >
+  <TextView
+    style="@style/dialog_title"
+    android:id="@+id/title"
+  />
+  <ScrollView
+    style="@style/dialog_scroll_view">
+ <LinearLayout
+   style="@style/dialog_inner_ll">
+
+   <TextView
+     style="@style/dialog_tiny_text"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:paddingTop="10dp"
+     android:textColor="@color/greyText"
+     android:id="@+id/incorrect_response_label"
+     />
+    <TextView
+      style="@style/dialog_tiny_text"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:paddingTop="2dp"
+      android:textColor="@color/dark_text"
+      android:id="@+id/incorrect_response"
+    />
+   <TextView
+     style="@style/dialog_tiny_text"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:paddingTop="10dp"
+     android:textColor="@color/greyText"
+     android:id="@+id/correct_responses_label"
+     />
+   <TextView
+     style="@style/dialog_tiny_text"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:paddingTop="2dp"
+     android:textColor="@color/dark_text"
+     android:id="@+id/correct_responses"
+     />
+  </LinearLayout>
+  </ScrollView>
+  <include layout="@layout/dialog_two_buttons"/>
+
+  </LinearLayout>
+		

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/dialog_ll">
+
+  <TextView
+    style="@style/dialog_title"
+    android:id="@+id/title"/>
+  <ScrollView
+    style="@style/dialog_scroll_view">
+    <LinearLayout
+      style="@style/dialog_inner_ll">
+    <RadioGroup
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:paddingTop="10dp"
+       android:id="@+id/radio_group_velocity">
+      <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/dialog_tiny_text"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/velocity_0"/>
+      <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/dialog_tiny_text"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/velocity_1"/>
+      <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/dialog_tiny_text"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/velocity_2"/>
+      <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/dialog_tiny_text"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/velocity_3"/>
+      <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/dialog_tiny_text"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/velocity_4"/>
+      <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/dialog_tiny_text"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/velocity_5"/>
+    </RadioGroup>
+  </LinearLayout>
+</ScrollView>
+  <include layout="@layout/dialog_two_buttons"/>
+</LinearLayout>
+		

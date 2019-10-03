@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:app="http://schemas.android.com/tools">
+  <style name="NoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+    <item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+    <item name="buttonStyle">@style/MyButton</item>
+  </style>
+  <style name="MyActionButtonOverflow" parent="android:style/Widget.Holo.ActionButton.Overflow">
+    <item name="android:src">@drawable/ic_more_vert_white_24dp</item>
+  </style>
+  <style name="MyButton" parent="Widget.AppCompat.Button">
+    <item name="android:textAllCaps">true</item>
+  </style>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  style="@style/dialog_ll">
+  <TextView
+    style="@style/dialog_title"
+    android:id="@+id/title"/>
+  <ScrollView
+    style="@style/dialog_scroll_view">
+    <LinearLayout
+      style="@style/dialog_inner_ll">
+      <TextView
+        android:id="@+id/notification_message"
+        style="@style/dialog_single_line_text"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Notification message"/>
+    </LinearLayout>
+  </ScrollView>
+  <include layout="@layout/dialog_two_buttons"/>
+</LinearLayout>
+		

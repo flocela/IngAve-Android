@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <drawable name="white">#fff</drawable>
+
+
+  <color name="colorPrimary">#FAC360</color>
+  <color name="transparent_light_yellow">#55feea8c</color>
+  <color name="colorAccent">#662859</color>
+  <color name="dark_dark_blue">#003399</color>
+
+  <color name="colorPrimaryLight">#fff</color>
+  <color name="text_white">#fefefe</color>
+  <color name="whiteText">#eee</color>
+  <color name="selectedTitle">#bdbdbd</color>
+  <color name="webListCompletedText">#858585</color>
+  <color name="greyText">#757575</color>
+  <color name="headerText">#525252</color>
+
+  <color name="colorPrimaryDark">#424242</color>
+  <color name="titleViewColor">@color/colorPrimaryDark</color>
+  <color name="dark_text">#222</color>
+  <color name="webListItemBg">#505050</color>
+  <color name="webListText">@color/colorPrimaryDark</color>
+  <color name="med_grey">#4d4d4d</color>
+
+  <color name="stagehouse_bg">#fcf4ff</color>
+  <color name="colloquy_bg">#EFF6F5</color>
+  <color name="stage_activity_bg">#EFF6F5</color>
+  <color name="general_background">#D5E7E3</color>
+  <color name="phone_background">#E8D3AE</color>
+
+  <color name="hint_text_eng">#31600F</color>
+  <color name="hint_text_spn">#4d9d00</color>
+  <color name="hint_bg">#Fcf5de</color>
+  <color name="hint_bg_on">@color/hint_text_eng</color>
+  <color name="hint_button">#99AD86</color>
+  <color name="hint_button_greyed">#B9C5AD</color>
+  <color name="hint_button_greyed_on">#A4B593</color>
+  <color name="hint_button_on">#E0F7FA</color>
+  <color name="hint_text_on">#eee</color>
+
+  <color name="reply_text_eng">@color/colorAccent</color>
+  <color name="reply_text_spn">#a35e8b</color>
+  <color name="reply_bg">#EBE8DF</color>
+  <color name="reply_bg_on">@color/reply_text_eng</color>
+  <color name="reply_bg_play">#885571</color>
+  <color name="reply_text_on">#ddd</color>
+  <color name="reply_button">#BCAAA4</color>
+  <color name="reply_button_greyed">#CABDB8</color>
+  <color name="reply_button_on">#EFEBE9</color>
+  <color name="reply_button_on_greyed">#A8938B</color>
+
+  <color name="dialog_bg">#f5f5f5</color>
+  <color name="dialog_title_text">@color/whiteText</color>
+  <color name="dialog_button_text">@color/whiteText</color>
+  <color name="dialog_text">#555</color>
+  <color name="dialog_button_bg">#757575</color>
+
+</resources>

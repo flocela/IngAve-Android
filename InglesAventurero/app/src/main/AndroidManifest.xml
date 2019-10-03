@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:app="http://schemas.android.com/apk/res-auto"
+    package="com.olfybsppa.inglesaventurero">
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE"></uses-permission>
+  <supports-screens android:largeScreens="true"
+                    android:xlargeScreens="true"
+                    android:requiresSmallestWidthDp="330"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name">
+
+        <activity
+            android:name=".openingactivity.OpeningActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme">
+          <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+          </intent-filter>
+        </activity>
+        <activity
+            android:name=".stageactivity.StageActivity"
+            android:theme="@style/NoActionBarTheme"
+          >
+          <!--<intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+          </intent-filter>-->
+        </activity>
+        <!--<meta-data android:name="STORY" android:value="TEST_STORY"/>-->
+        <service
+        android:name=".stageactivity.TrackerService"
+        android:exported="false"/>
+      <activity
+        android:name="com.olfybsppa.inglesaventurero.deleteingscenes.DeleteSceneActivity"
+        android:theme="@style/NoActionBarTheme">
+      </activity>
+      <activity
+        android:name="com.olfybsppa.inglesaventurero.completedscenes.CompletedScenesActivity"
+        android:theme="@style/NoActionBarTheme">
+      </activity>
+      <activity
+        android:name="com.olfybsppa.inglesaventurero.webscenelistactivity.WebActivity"
+        android:theme="@style/NoActionBarTheme">
+      </activity>
+      <service android:name=".deleteingscenes.ClearSceneService"/>
+      <service android:name=".stageactivity.SceneCompletedService"/>
+      <provider
+        android:name="com.olfybsppa.inglesaventurero.start.LinesCP"
+        android:authorities="com.olfybsppa.inglesaventurero.start.LinesCP">
+      </provider>
+    </application>
+
+</manifest>

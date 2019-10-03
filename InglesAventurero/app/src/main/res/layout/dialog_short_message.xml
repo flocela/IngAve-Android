@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/dialog_ll">
+  <TextView
+    style="@style/dialog_title"
+    android:id="@+id/title"/>
+   <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     style="@style/dialog_single_line_text"
+     android:id="@+id/short_message"
+     />
+  <include layout="@layout/dialog_two_buttons"/>
+  
+  </LinearLayout>
+		

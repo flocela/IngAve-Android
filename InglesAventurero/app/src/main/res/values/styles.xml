@@ -1,0 +1,201 @@
+<resources>
+  <style name="RegTiny">
+    <item name="android:textSize">17sp</item>
+    <item name="android:fontFamily">sans-serif</item>
+  </style>
+	<style name="RegSmall">
+    <item name="android:textSize">20sp</item>
+  </style>
+	<style name="RegMedium">
+    <item name="android:textSize">23sp</item>
+    <item name="android:fontFamily">sans-serif</item>
+  </style>
+  <style name="RegLargeMedium">
+    <item name="android:textSize">26sp</item>
+  </style>
+
+  <style  name="opening_list_item">
+    <item name="android:paddingTop">   3dp</item>
+    <item name="android:paddingBottom">4dp</item>
+    <item name="android:paddingLeft">  6dp</item>
+    <item name="android:paddingRight"> 2dp</item>
+    <item name="android:textSize">    20sp</item>
+    <item name="android:singleLine">  true</item>
+    <item name="android:ellipsize">    end</item>
+    <item name="android:textColor">@color/headerText</item>
+  </style>
+
+  <!-- dialog will be 400dp, unless the width of screen is less, then it will
+       be the width of the screen minus some margin. I think 400dp for a dialog
+       looks good on all screen widths.-->
+  <!-- rules are that I can't have a width inside container (all TextViews, LL,
+       ScrollViews..) be specified with a width > 400dp, so wrap_content and match_parent
+       are okay.-->
+  <!-- in onCreate setBackgroundResource so that background resource will show because
+       I want rounded corners.
+       getDialog().getWindow().getDecorView().
+       setBackgroundResource(android.R.color.transparent);-->
+  <style name="dialog_ll">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:background">@color/dialog_bg</item>
+    <item name="android:minWidth">400dp</item>
+    <item name="android:minHeight">200dp</item>
+    <item name="android:paddingBottom">15dp</item>
+    <item name="android:orientation">vertical</item>
+  </style>
+
+  <style  name="dialog_title">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:background">@color/colorPrimary</item>
+    <item name="android:paddingBottom">12dp</item>
+    <item name="android:paddingTop">   12dp</item>
+    <item name="android:paddingLeft"> 15dp</item>
+    <item name="android:paddingRight">15dp</item>
+    <item name="android:textSize">    20sp</item>
+    <item name="android:fontFamily">sans-serif-medium</item>
+    <item name="android:textColor">@color/dialog_title_text</item>
+    <item name="android:gravity">center</item>
+  </style>
+
+  <style name="dialog_scroll_view">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+    <item name="android:scrollbarSize">30dp</item>
+    <item name="android:fadeScrollbars">true</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:layout_marginTop">0dp</item>
+  </style>
+
+  <style name="dialog_inner_ll">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:orientation">vertical</item>
+    <item name="android:paddingRight">15dp</item>
+    <item name="android:paddingLeft">15dp</item>
+    <item name="android:paddingBottom">10dp</item>
+    <item name="android:paddingTop">10dp</item>
+  </style>
+
+  <style name="dialog_single_line_text" parent="dialog_small_text">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_gravity">center_horizontal</item>
+    <item name="android:paddingRight">15dp</item>
+    <item name="android:paddingLeft">15dp</item>
+    <item name="android:paddingTop">20dp</item>
+    <item name="android:paddingBottom">15dp</item>
+  </style>
+
+  <style name="dialog_buttons_ll">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_gravity">center_horizontal</item>
+    <item name="android:orientation">horizontal</item>
+    <item name="android:paddingLeft">15dp</item>
+    <item name="android:paddingRight">15dp</item>
+    <item name="android:layout_marginTop">10dp</item>
+  </style>
+
+  <style name="dialog_med_text" parent="RegMedium">
+    <item name="android:textColor">@color/dialog_text</item>
+  </style>
+
+  <style name="dialog_small_text" parent="RegSmall">
+    <item name="android:textColor">@color/dialog_text</item>
+  </style>
+
+  <style name="dialog_tiny_text" parent="RegTiny">
+    <item name="android:textColor">@color/dialog_text</item>
+  </style>
+
+  <style name="dialog_button">
+    <item name="android:textSize">16sp</item>
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:background">@drawable/rounded_dark_grey_button</item>
+    <item name="android:paddingLeft">15dp</item>
+    <item name="android:paddingRight">15dp</item>
+    <item name="android:fontFamily">sans-serif</item>
+    <item name="android:textColor">@color/dialog_button_text</item>
+  </style>
+
+  <style name="dialog_spaced_layout">
+    <item name="android:layout_width"> match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_marginTop">4dp</item>
+    <item name="android:layout_marginBottom">4dp</item>
+    <item name="android:layout_marginLeft"> 10dp</item>
+    <item name="android:layout_marginRight">10dp</item>
+  </style>
+
+  <style name="dialog_info_text" parent = "dialog_tiny_text">
+    <item name="android:layout_width"> wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+
+  <style name = "plain_speech">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:fontFamily">sans-serif</item>
+    <item name="android:textSize">20sp</item>
+  </style>
+
+  <style name="wfw_text">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textSize">20sp</item>
+    <item name="android:lineSpacingExtra">34sp</item>
+    <item name="android:typeface">monospace</item>
+    <item name="android:fontFamily">monospace</item>
+  </style>
+
+  <style name = "plain_speech_550">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:fontFamily">sans-serif</item>
+    <item name="android:textSize">24sp</item>
+  </style>
+
+  <style name="wfw_text_550">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textSize">24sp</item>
+    <item name="android:lineSpacingExtra">34sp</item>
+    <item name="android:typeface">monospace</item>
+    <item name="android:fontFamily">monospace</item>
+  </style>
+
+
+  <style  name="w_match_h_match">
+    <item name="android:layout_width"> match_parent</item>
+    <item name="android:layout_height">match_parent</item>
+  </style>
+
+  <style  name="w_match_h_wrap">
+    <item name="android:layout_width"> match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+
+  <style name = "w_wrap_h_wrap">
+    <item name="android:layout_width"> wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+  </style>
+<!--
+	<style name="AppBaseTheme" parent="android:Theme.Light">		
+	</style>
+
+	<style name="AppTheme" parent="AppBaseTheme">
+		<item name="android:actionBarStyle">@style/MyActionBar</item>
+	</style>
+  <style name="MyActionBar"
+    parent="AppBaseTheme">
+    <item name="android:background">#000</item>
+  </style>
+	-->
+
+
+</resources>

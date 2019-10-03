@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <CheckBoxPreference
+    android:key="download_first_scene_prompt"
+    android:title="Download First Scene Prompt"
+    android:summary="Download First Scene Prompt"
+    android:defaultValue="true" />
+  <CheckBoxPreference
+    android:key="download_instructions_prompt"
+    android:title="Download Instructions Prompt"
+    android:summary="Download Instructions Prompt"
+    android:defaultValue="true" />
+  <CheckBoxPreference
+    android:key="start_scene_instructions"
+    android:title="Scene Instructions"
+    android:summary="Scene Instructions"
+    android:defaultValue="true" />
+  <CheckBoxPreference
+    android:key="web_activity_difficulty_toast"
+    android:title="Web Activity Toast"
+    android:summary="Web Activity Toast"
+    android:defaultValue="true" />
+  <CheckBoxPreference
+    android:key="options_prompt"
+    android:title="List of Options Prompt"
+    android:summary="List of Options Prompt"
+    android:defaultValue="true" />
+  <ListPreference
+    android:key="lines_shown_h"
+    android:title="@string/lines_shown_h_spn"
+    android:entryValues="@array/lines_shown_h"
+    android:defaultValue="@integer/lines_shown_default_h"
+    />
+  <ListPreference
+    android:key="lines_shown_r"
+    android:title="@string/lines_shown_r_spn"
+    android:entryValues="@array/lines_shown_r"
+    android:defaultValue="@integer/lines_shown_default_r"
+    />
+  <ListPreference
+    android:key="@string/wait_times_key"
+    android:title="@string/wait_times_title"
+    android:defaultValue="@integer/wait_times_default"
+    />
+  <ListPreference
+    android:key="@string/num_of_active_scenes"
+    android:title="@string/wait_times_title"
+    android:defaultValue="@integer/num_of_active_scenes_default"
+    />
+</PreferenceScreen>

@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Limpiar Pagina"
+          android:icon="@drawable/ic_info"
+          app:showAsAction= "never"
+          android:id="@+id/action_clear_scene"/>
+    <item android:title="Instrucciones"
+          android:icon="@drawable/ic_info"
+          app:showAsAction= "never"
+          android:id="@+id/action_help"/>
+
+    <item android:title="@string/lines_shown_spn"
+          android:icon="@drawable/ic_info"
+          app:showAsAction= "never"
+          android:id="@+id/action_spanish_shown"/>
+
+    <item android:title="Rapidez"
+          android:icon="@drawable/ic_info"
+          app:showAsAction= "never"
+          android:id="@+id/action_velocity"/>
+
+    <item android:title="Informacio\u0301n de Foto"
+          android:icon="@drawable/ic_info"
+          app:showAsAction= "never"
+          android:id="@+id/action_scene_and_pict_info"/>
+
+    <item android:title="Informacio\u0301n de Voces"
+          android:icon="@drawable/ic_info"
+          app:showAsAction= "never"
+          android:id="@+id/action_scene_voice_info"/>
+</menu>

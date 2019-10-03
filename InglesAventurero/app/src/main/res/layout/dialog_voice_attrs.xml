@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  style="@style/dialog_ll"
+  android:minWidth="350dp"
+  android:minHeight="220dp">
+
+  <TextView
+    android:id="@+id/title"
+    style="@style/dialog_title"
+    android:text="Copyright Info"
+    android:maxWidth="350dp"/>
+
+  <View
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:background="@color/colorPrimary"/>
+
+  <ScrollView
+    android:id="@+id/scrollview"
+    style="@style/dialog_spaced_layout"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbarSize="20dp"
+    android:fadeScrollbars="false"
+    android:layout_weight="1">
+    <LinearLayout
+      android:id="@+id/ll_inside_scrollview"
+      style="@style/w_match_h_wrap"
+      android:orientation="vertical" >
+      <TextView
+        android:id="@+id/info"
+        style="@style/dialog_single_line_text"
+        android:text="For image copyright information press the"/>
+    </LinearLayout>
+  </ScrollView>
+
+  <include layout="@layout/dialog_two_buttons"/>
+</LinearLayout>
+		

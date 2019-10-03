@@ -1,0 +1,177 @@
+<scene>
+  <scene_name>AL-02</scene_name>
+  <english_title>Alphabet_2</english_title>
+  <spanish_title>Alphabeto_2</spanish_title>
+
+<page>
+  <page_name>1</page_name>
+  <scene_id>AL-01</scene_id>
+  <is_first>1</is_first>
+  <background>
+    <background_web_id>1</background_web_id>
+    <background_name>alphabet_0</background_name>
+    <background_filename>alphabet_0.jpg</background_filename>
+    <attribution>
+      <image_credit>
+            <image_info_name>image_info_name_0_a</image_info_name>
+            <artist>artist_1_a</artist>
+            <link_to_license>link_to_license_0_a</link_to_license>
+            <name_of_license>name_of_license_0_a</name_of_license>
+            <artist_image_name>artist_image_name_0_a</artist_image_name>
+            <artist_filename>artist_filename_0_a</artist_filename>
+            <image_url_name>image_url_name_0_a</image_url_name>
+            <image_url>image_url_0_a</image_url>
+      </image_credit>
+      <changes_english>changes_english_0_a</changes_english>
+      <changes_spanish>changes_spanish_0_a</changes_spanish>
+    </attribution>
+    <attribution>
+      <image_credit>
+            <image_info_name>image_info_name_0_b</image_info_name>
+            <artist>artist_0_b</artist>
+            <link_to_license>link_to_license_0_b</link_to_license>
+            <name_of_license>name_of_license_0_b</name_of_license>
+            <artist_image_name>artist_image_name_0_b</artist_image_name>
+            <artist_filename>artist_filename_0_b</artist_filename>
+            <image_url_name>image_url_name_0_b</image_url_name>
+            <image_url>image_url_0_b</image_url>
+      </image_credit>
+      <changes_english>changes_english_0_b</changes_english>
+      <changes_spanish>changes_spanish_0_b</changes_spanish>
+    </attribution>
+  </background>
+  <hint>
+    <page_name>0</page_name>
+    <pos_id>0</pos_id>
+    <group_id>0</group_id>
+    <next_page_name>-1</next_page_name>
+    <normal_start_time>10</normal_start_time>
+    <normal_end_time>  11</normal_end_time>
+    <slow_start_time>  12</slow_start_time>
+    <slow_end_time>    13</slow_end_time>
+    <english_phrase>   Page:0 GroupID:0</english_phrase>
+    <spanish_phrase>   Page:0 GroupID:0</spanish_phrase>
+    <wfw_english>      Time plays: 10 for 1</wfw_english>
+    <wfw_spanish>      Next page : -1</wfw_spanish>
+    <explanation>      explanation apple 0d</explanation>
+  </hint>
+  <reply>
+    <page_name>0</page_name>
+    <pos_id>1</pos_id>
+    <next_page_name>8</next_page_name>
+    <reply_group_id>1</reply_group_id>
+    <normal_start_time>14</normal_start_time>
+    <normal_end_time>  15</normal_end_time>
+    <slow_start_time>  16</slow_start_time>
+    <slow_end_time>    17</slow_end_time>
+    <english_phrase>Page:0 GroupID:1 Position:1</english_phrase>
+    <spanish_phrase>Page:0 GroupID:1 Position:1</spanish_phrase>
+    <wfw_english>Time plays: 14 for 1</wfw_english>
+    <wfw_spanish>Next  page: 8</wfw_spanish>
+    <regex>Page:0 GroupID:1 Position:1</regex>
+    <explanation>explanation apple 1</explanation>
+  </reply>
+  <reply>
+      <page_name>0</page_name>
+      <pos_id>2</pos_id>
+      <next_page_name>1</next_page_name>
+      <reply_group_id>1</reply_group_id>
+      <normal_start_time>18</normal_start_time>
+      <normal_end_time>  19</normal_end_time>
+      <slow_start_time>  20</slow_start_time>
+      <slow_end_time>    21</slow_end_time>
+      <english_phrase>Page:0 GroupID:1 Position:2</english_phrase>
+      <spanish_phrase>Page:0 GroupID:1 Position:2</spanish_phrase>
+      <wfw_english>Time plays: 18 for 1</wfw_english>
+      <wfw_spanish>Next  page: 1</wfw_spanish>
+      <regex>Page:0 GroupID:1 Position:2</regex>
+      <explanation>explanation apple 2</explanation>
+    </reply>
+</page>
+
+<page>
+  <page_name>1</page_name>
+  <scene_id>AL-02</scene_id>
+  <is_first>0</is_first>
+  <background>
+    <background_web_id>1</background_web_id>
+    <background_name>alphabet_1</background_name>
+    <background_filename>alphabet_1.jpg</background_filename>
+    <attribution>
+      <image_credit>
+            <image_info_name>image_info_name_1_a</image_info_name>
+            <artist>artist_1_a</artist>
+            <link_to_license>link_to_license_1_a</link_to_license>
+            <name_of_license>name_of_license_1_a</name_of_license>
+            <artist_image_name>artist_image_name_1_a</artist_image_name>
+            <artist_filename>artist_filename_1_a</artist_filename>
+            <image_url_name>image_url_name_1_a</image_url_name>
+            <image_url>image_url_1_a</image_url>
+      </image_credit>
+      <changes_english>changes_english_1_a</changes_english>
+      <changes_spanish>changes_spanish_1_a</changes_spanish>
+    </attribution>
+    <attribution>
+      <image_credit>
+            <image_info_name>image_info_name_1_b</image_info_name>
+            <artist>artist_1_b</artist>
+            <link_to_license>link_to_license_1_b</link_to_license>
+            <name_of_license>name_of_license_1_b</name_of_license>
+            <artist_image_name>artist_image_name_1_b</artist_image_name>
+            <artist_filename>artist_filename_1_b</artist_filename>
+            <image_url_name>image_url_name_1_b</image_url_name>
+            <image_url>image_url_1_b</image_url>
+            </image_credit>
+            <changes_english>changes_english_1_b</changes_english>
+            <changes_spanish>changes_spanish_1_b</changes_spanish>
+    </attribution>
+  </background>
+  <hint>
+    <page_name>1</page_name>
+    <pos_id>0</pos_id>
+    <group_id>0</group_id>
+    <next_page_name>-1</next_page_name>
+    <normal_start_time>22</normal_start_time>
+    <normal_end_time>  23</normal_end_time>
+    <slow_start_time>  24</slow_start_time>
+    <slow_end_time>    25</slow_end_time>
+    <english_phrase>   Page:1 GroupID:0</english_phrase>
+    <spanish_phrase>   Page:1 GroupID:0</spanish_phrase>
+    <wfw_english>      Time plays: 22 for 1</wfw_english>
+    <wfw_spanish>      Next  page: -1</wfw_spanish>
+    <explanation>      explanation banana 0d</explanation>
+  </hint>
+  <reply>
+    <page_name>1</page_name>
+    <pos_id>1</pos_id>
+    <next_page_name>25</next_page_name>
+    <reply_group_id>1</reply_group_id>
+    <normal_start_time>26</normal_start_time>
+    <normal_end_time>  27</normal_end_time>
+    <slow_start_time>  28</slow_start_time>
+    <slow_end_time>    29</slow_end_time>
+    <english_phrase>Page:1 GroupID:1 Position:1</english_phrase>
+    <spanish_phrase>Page:1 GroupID:1 Position:1</spanish_phrase>
+    <wfw_english>Time plays: 26 for 1</wfw_english>
+    <wfw_spanish>Next  page: 25</wfw_spanish>
+    <regex>Page:1 GroupID:1 Position:1</regex>
+    <explanation>explanation banana 1e</explanation>
+  </reply>
+  <reply>
+    <page_name>1</page_name>
+    <pos_id>2</pos_id>
+    <next_page_name>2</next_page_name>
+    <reply_group_id>1</reply_group_id>
+    <normal_start_time>30</normal_start_time>
+    <normal_end_time>  31</normal_end_time>
+    <slow_start_time>  32</slow_start_time>
+    <slow_end_time>    33</slow_end_time>
+    <english_phrase>Page:1 GroupID:1 Position:2</english_phrase>
+    <spanish_phrase>Page:1 GroupID:1 Position:2</spanish_phrase>
+    <wfw_english>Time plays: 30 for 1</wfw_english>
+    <wfw_spanish>Next  page: 2</wfw_spanish>
+    <regex>Page:1 GroupID:1 Position:2</regex>
+    <explanation>explanation banana 2e</explanation>
+  </reply>
+</page>
+</scene>

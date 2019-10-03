@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   style="@style/w_match_h_match"
+   android:orientation="vertical"
+   android:background="@color/transparent_light_yellow"
+   android:paddingLeft="5dp"
+   android:paddingRight="5dp"
+   android:paddingTop="10dp"
+   android:paddingBottom="10dp">
+
+  <TextView
+    style="@style/dialog_info_text"
+    android:textColor="@color/dark_text"
+    android:id="@+id/ia_info_name"/>
+
+  <TextView
+    style="@style/dialog_info_text"
+    android:textColor="@color/dark_text"
+    android:id="@+id/title_from_artist"/>
+
+  <TextView
+    style="@style/dialog_info_text"
+    android:textColor="@color/dark_text"
+    android:id="@+id/artist"/>
+
+  <TextView
+    style="@style/dialog_info_text"
+    android:textColor="@color/dark_text"
+    android:id="@+id/license"/>
+
+  <TextView
+    style="@style/dialog_info_text"
+    android:textColor="@color/dark_text"
+    android:id="@+id/modifications"/>
+
+  <TextView
+    style="@style/dialog_info_text"
+    android:textColor="@color/dark_text"
+    android:id="@+id/artist_image_filename"/>
+
+  <TextView
+    style="@style/dialog_info_text"
+    android:textColor="@color/dark_text"
+    android:id="@+id/link_to_image"/>
+
+</LinearLayout>

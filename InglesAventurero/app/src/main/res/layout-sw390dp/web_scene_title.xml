@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_marginTop="2dp"
+  android:id="@+id/scene_title"
+  android:background="@drawable/select_scene_title">
+<LinearLayout
+  style="@style/w_match_h_wrap"
+  android:orientation="horizontal"
+  android:layout_marginBottom="0dp"
+  android:paddingTop="8dp"
+  android:paddingBottom="8dp"
+  android:id="@+id/web_scene_title_layout">
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+      <TextView
+        style="@style/opening_list_item"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="2"
+        android:layout_weight="0"
+        android:textColor="@color/titleViewColor"
+        android:id="@+id/difficulty"/>
+      <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ic_tag_dark"
+        android:id="@+id/aquired"/>
+      <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+          style="@style/opening_list_item"
+          android:id="@+id/spanish_title"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingBottom="0dp"
+          android:textColor="@color/titleViewColor"
+          android:text="Titulo en Espanol"/>
+        <TextView
+          style="@style/opening_list_item"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="16sp"
+          android:paddingTop="0dp"
+          android:text="Descripción en Espanol Now"
+          android:textColor="@color/titleViewColor"
+          android:fontFamily="sans-serif"
+          android:ellipsize="marquee"
+          android:id="@+id/spanish_description"/>
+      </LinearLayout>
+    </LinearLayout>
+    <TextView
+      style="@style/opening_list_item"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textSize="16sp"
+      android:visibility="gone"
+      android:layout_marginLeft="65dp"
+      android:textStyle="italic"
+      android:text="English Description Now"
+      android:textColor="@color/titleViewColor"
+      android:fontFamily="sans-serif"
+      android:ellipsize="marquee"
+      android:paddingTop="0dp"
+      android:id="@+id/english_description"/>
+    <TextView
+      android:id="@+id/story_id"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:visibility="gone"/>
+  </LinearLayout>
+</LinearLayout>
+</RelativeLayout>

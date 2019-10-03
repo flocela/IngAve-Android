@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/dialog_buttons_ll">
+  <Button
+    style="@style/dialog_button"
+    android:text="@string/ok"
+    android:id="@+id/btn_ok">
+  </Button>
+  <Button
+    style="@style/dialog_button"
+    android:layout_marginLeft="20dp"
+    android:id="@+id/btn_language">
+  </Button>
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:layout_marginLeft="0dp"
+  android:layout_marginRight="20dp"
+  android:layout_marginTop="4dp"
+  android:background="@drawable/bkgd_h"
+  android:padding="10dp"
+  android:id="@+id/hint">
+  <TextView
+    style="@style/plain_speech"
+    android:gravity="center_horizontal"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:textColor="@color/hint_text_eng"
+    android:id="@+id/h_engl_phrase"/>
+  <TextView
+    style="@style/plain_speech"
+    android:gravity="center_horizontal"
+    android:paddingBottom="20dp"
+    android:textColor="@color/hint_text_spn"
+    android:id="@+id/h_span_phrase"/>
+  <RelativeLayout
+    style="@style/w_match_h_wrap">
+    <TextView
+      android:id="@+id/h_wfw_engl"
+      style="@style/wfw_text"
+      android:textColor="@color/hint_text_eng"/>
+    <TextView
+      style="@style/wfw_text"
+      android:textColor="@color/hint_text_spn"
+      android:layout_alignTop="@id/h_wfw_engl"
+      android:layout_marginTop="24sp"
+      tools:text="Haces tu  querer yo a  jugar?"
+      android:id="@+id/h_wfw_span"/>
+  </RelativeLayout>
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_gravity="left"
+    android:orientation="horizontal">
+    <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginRight="25dp"
+      android:background="@drawable/ripple_h_button_bg"
+      android:src="@drawable/ic_play"
+      android:id="@+id/replay"/>
+
+    <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginRight="25dp"
+      android:src="@drawable/ic_turtle"
+      android:background="@drawable/ripple_h_button_bg"
+      android:id="@+id/slow_play"/>
+
+    <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/ic_explanation"
+      android:background="@drawable/ripple_h_button_bg"
+      android:layout_marginRight="25dp"
+      android:id="@+id/h_explanation"/>
+
+    <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:src="@drawable/ic_lines_shown"
+      android:background="@drawable/ripple_h_button_bg"
+      android:id="@+id/lines_shown"/>
+  </LinearLayout>
+
+</LinearLayout>

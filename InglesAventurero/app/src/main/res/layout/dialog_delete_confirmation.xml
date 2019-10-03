@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/dialog_ll">
+  <TextView
+    style="@style/dialog_title"
+    android:id="@+id/title"/>
+  <TextView
+    style="@style/dialog_single_line_text"
+    android:id="@+id/notification_message"/>
+  <LinearLayout
+    style="@style/dialog_buttons_ll">
+    <Button
+      style="@style/dialog_button"
+      android:text="Ok"
+      android:id="@+id/btn_ok">
+    </Button>
+    <Button
+      style="@style/dialog_button"
+      android:layout_marginLeft="20dp"
+      android:id="@+id/cancel">
+    </Button>
+  </LinearLayout>
+  <Button
+    style="@style/dialog_button"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:id="@+id/btn_language">
+  </Button>
+</LinearLayout>
+		
