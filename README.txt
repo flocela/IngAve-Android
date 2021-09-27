@@ -1,5 +1,9 @@
+<<<<<<< HEAD:README.md
 
+##About
+=======
 ## About
+>>>>>>> 660db1f8453de2dfe19e66f9f865d6578b951eea:README.txt
 
 InglésAventurero/Android git repository holds just the Android files.
 
