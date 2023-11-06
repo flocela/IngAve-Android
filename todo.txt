@@ -1,0 +1,5 @@
+There are 3 Git Files. Need to resolve this.
+Has 3 .gitignore files:
+./.gitignore
+./InglesAventurero/app/.gitignore
+./InglesAventurero/.gitignore
