@@ -2,7 +2,7 @@
 
 Unfortunately, Inglés Aventurero has been discontinued. However, you can still see the demo video below!
 
-[![QP8F9KVbIA4](https://img.youtube.com/vi/QP8F9KVbIA4/0.jpg)](https://www.youtube.com/watch?v=QP8F9KVbIA4&t=44s)
+[![QP8F9KVbIA4](https://img.youtube.com/vi/QP8F9KVbIA4/0.jpg)](https://www.youtube.com/watch?v=QP8F9KVbIA4&t=46s)
 
 ## Intro
 
