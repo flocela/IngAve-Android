@@ -1,5 +1,10 @@
+## Inglés Aventurero
 
-## About
+Unfortunately, Inglés Aventurero has been discontinued. However, you can still see the demo video below!
+
+[![QP8F9KVbIA4&t](https://img.youtube.com/vi/QP8F9KVbIA4&t/0.jpg)](https://www.youtube.com/watch?v=QP8F9KVbIA4&t)
+
+## Intro
 
 InglésAventurero teaches English to Spanish speakers by letting the user participate in different scenes.
 
