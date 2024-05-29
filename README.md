@@ -12,4 +12,4 @@ Each scene is shown as a series of pictures with dialogue. The user can hear the
 
 The scenes are downloaded from www.appsbyflo.com, which holds the pictures and audio in an AWS bucket.
 
-This repository, IngAve-Android, holds the Android application. The testing summary is in [Testing/testing-summary.pdf](Testing/testing-summary.pdf). The instrumentation tests are in the [src/androidTest](app/src/androidTest) folder, the unit tests are in [src/test](src/test). The instructions for manual tests are in the [Testing/testing-manual-tests.pdf](Testing/test-manual-tests.pdf).
+This repository, IngAve-Android, holds the Android application. The testing summary is in [Testing/testing-summary.pdf](Testing/testing-summary.pdf). The instrumentation tests are in the [src/androidTest](InglesAventurero/app/src/androidTest) folder, the unit tests are in [src/test](InglesAventurero/app/src/test). The instructions for manual tests are in the [Testing/testing-manual-tests.pdf](Testing/test-manual-tests.pdf).
