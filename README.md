@@ -1,8 +1,8 @@
 ## Inglés Aventurero
 
-Unfortunately, Inglés Aventurero has been discontinued. However, you can still see the demo video on [youtube](https://www.youtube.com/watch?v=QP8F9KVbIA4&t=2m29s)!
+Unfortunately, Inglés Aventurero has been discontinued. However, you can still see the demo video on [youtube](https://www.youtube.com/watch?v=QP8F9KVbIA4&t=2m19s)!
 
-[![QP8F9KVbIA4](https://img.youtube.com/vi/QP8F9KVbIA4/0.jpg)](https://www.youtube.com/watch?v=QP8F9KVbIA4&t=2m29s)
+[![QP8F9KVbIA4](https://img.youtube.com/vi/QP8F9KVbIA4/0.jpg)](https://www.youtube.com/watch?v=QP8F9KVbIA4&t=2m19s)
 
 ## Intro
 
